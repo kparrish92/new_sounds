@@ -1,0 +1,5 @@
+---
+output: 
+  bookdown::pdf_document2:
+    template: plos_latex_template.tex
+---

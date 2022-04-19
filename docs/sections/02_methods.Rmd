@@ -1,0 +1,48 @@
+## Statistical analyses
+
+For the vowel categorization tasks, the data were analyzed using a series of Bayesian multilevel multinomial logistic regression model in R [@R-base].
+The models were fit using the R package `brms` [@R_brms_a].
+A model was run for each of 4 groups: L1 Spanish, L1 English, monolingual English and monolingual Spanish.
+In each model, the outcome variable was word choice. 
+In the bilingual groups, this consisted of 7 total options (3 Spanish words: *fin*, *su*, *son* and 4 English words: *fun*, *fought*, *feel*, and *fool*.)
+Thus, outcome of the bilingual models estimates the log odds of choosing one of the seven choices, and would sum to 1 when converted to probability. 
+The fixed effect predictors of the bilingual models were phoneme (/i/, schwa, /y/ and /o/), stimulus language (French or German) and Lextale score (continuous and transformed to a z-score) and all higher order interactions. Random effects included a random intercept for participant to take into account the nested structure of the data. 
+
+The monolingual models modeled word choice as a function of phoneme and stimulus language, again with a random intercept for participant to take into account the nested structure of the data. 
+In this case, language choice was more limited in each group limited, with the Spanish monolingual group only having 3 options: *fin*, *su*, *son*, while the English group had 4 word choices: *fun*, *fought*, *feel*, and *fool*.
+The model included regularizing, weakly informative priors [@Gelman_2017], 
+which were normally distributed and centered at 0 with a standard deviation 
+of 8 for all population-level parameters.
+The region of practical equivalence (ROPE) was set to 0.18, as the outcome variable was in log-odds [see @kruschke2018rejecting]. 
+All models were fit with 2000 iterations (1000 warm-up). 
+Markov-chain Monte-Carlo sampling was carried out with 6 chains distributed between 8 processing cores.
+
+
+<!--- 
+
+Both models were fit with 2000 iterations (1000 warm-up). 
+Hamiltonian Monte-Carlo sampling was carried out with 6 chains distributed
+between 16 processing cores. 
+For all models we report mean posterior point estimates for each parameter of 
+interest, along with the 95% highest density interval (HDI), the percent of 
+the region of the HDI contained within the ROPE, and the maximum probability 
+of effect (MPE).
+We consider a posterior distribution for a parameter &beta; in which 95% 
+of the HDI falls outside the ROPE and a high MPE (i.e., values close to 1) 
+as compelling evidence for a given effect.
+See the on-line supplementary materials for more information. 
+
+<!-- footnotes -->
+<!--
+[^bda]: Bayesian data analysis (BDA) represents an alternative to frequentist 
+data analysis. 
+The interested reader is encouraged to consult the on-line supplementary 
+materials for more information. 
+
+[^standardizing]: Following @gelman2012data we standardized the continuous 
+predictors by subtracting the mean of the distribution from each individual 
+value and dividing by 2 standard deviations.
+This transformation puts the parameter estimates of the continuous predictors 
+on the same scale as the fixed factors *context*, and *order*, and increases 
+computational efficiency. 
+--->

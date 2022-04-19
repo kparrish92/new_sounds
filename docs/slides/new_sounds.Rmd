@@ -56,6 +56,7 @@ class: title-slide-section, middle
 
 .pull-left[
 .content-box-blue[
+.large[
 **Typology predicts L2 learning difficulty**
 
 When languages are typologically similar, they will likely be easier to learn (e.g. a Spanish speaker learning Brazilian Portuguese)
@@ -64,40 +65,41 @@ When languages are typologically similar, they will likely be easier to learn (e
 
 This is also likely true for phonological learning: closely related languages are likely more easily acquired than those that are not. 
 
-]]
+]]]
 
 --
 
 .pull-right[
 .content-box-blue[
+.large[
 **Perception drives L2 learning**
 
 New category formation is one part of phonological learning and is argued to be driven by perception (van Luessen & Escudero, 2015; Best & Tyler, 2007).
 
 L2 models suggest that this formation occurs based on **sound contrasts** present in both languages. 
-
-Previous research has found evidence that L1 categories predict the ease of acquisition of an L2, where sounds that differently contrast in the L2 are more difficult to acquire (e.g. the /i/ contrast /I/ in English by speakers of Spanish). 
-]]
+]]]
 
 ---
 
 # Background 
 
 .pull-left[
+.large[
 **What do we want to know?** 
 
 Are more categories/contrasts ultimately better? 
 
 Overall, it's not well known whether speakers who have acquired a second language remain influenced by their L1 categories when they learn an additional (third) language. 
-]
+]]
 
 --
 
 .pull-right[
+.large[
 **How will it be investigated?** 
 
 The present work examines whether bilinguals make use of both their L1 and L2 categories when they are asked to categorize new language sounds. 
-]
+]]
 
 ---
 
@@ -114,20 +116,22 @@ Rothman (2015); Bardel & Falk (2007)
 # Background 
 
 .pull-left[
+.large[
 **Access to both the L1 and L2 is debated** 
 
 Some models predict that L3 learners only have **access to one source language.** (The L2 Status Factor; the Typological Primacy Model) 
 
 Others predict **access to both languages.** (The Linguistic Proximity Model; the Scalpel Model)
-]
+]]
 
 --
 
 .pull-right[
+.large[
 **There is not much data in perception** 
 
 Wrembel et al. (2019) found that L3 vowels were assimilated to both L1 and L2 categories, with a preference for the L2 sounds in young learners of L3 Polish. 
-]
+]]
 
 ---
 
@@ -413,15 +417,15 @@ background-size: contain
 .pull-right[
 .full-width[
 .content-box-grey[
-**Specifically**: When the L3 vowel... 
+**Specifically**:  
 
-was contained in both the L1 and L2 (/i/), no evidence was found of a favored L1 nor L2.
+/i/ - both English and Spanish were probable.
 
-was English-like (wedge), both groups showed an English word preference 
+/ʌ/, both groups showed an English word preference.
 
-was meant to be Spanish-like (/o/), participants treated it as similarly to the wedge.
+/o/, both groups showed an English word preference.
 
-was in neither the L1 or L2 (/y/), participants assimilated it to /u/
+/y/, participants assimilated it to /u/
 ]]]
 
 ---
@@ -429,23 +433,22 @@ was in neither the L1 or L2 (/y/), participants assimilated it to /u/
 # Discussion
 
 .pull-left[
-**Neither language status (order of acquisition) nor global language similarity impact categorizations**
+**Neither language status nor global language similarity impact categorizations**
 
 Segment by segment acoustic differences are the most likely guiding factor of novel language categorization. 
-]]
+]
 
 --
 
-.pull-right  [
+.pull-right[
 **Findings**
 
-It is unclear whether L3 learning and L2 learning should be considered distinct in perception, if one thinks of the L1 and L2 as a single language with many categories. 
+It is unclear whether L3 learning and L2 learning should be considered distinct in perception. 
 
-L3 learners have access to both their L1 and L2 and seem to be guided by acoustics, as opposed to global typology or order of acquisition. 
+Categorizations seem to be guided by acoustics.
 
 L3 prediction of might follow L2 models, differing only in that L3 learners likely have more categories to assimilate L3 sounds to. 
 ]
-
 
 ---
 

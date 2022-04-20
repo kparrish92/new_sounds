@@ -3,6 +3,9 @@ source(here::here("scripts", "00_libs.R"))
 source(here::here("scripts", "new_sounds", "03_load_data.R"))
 
 
+
+desc_df_all = rbind(desc_df_eng, desc_df_span)
+
 # make summary tables for plots and tables 
 desc_df_eng = english_l1_pct %>% 
   group_by(phoneme, stim_language, choice) %>% 
@@ -64,6 +67,7 @@ desc_df_all %>%
          dpi = 1200)
 
 # o graph new sounds
+
 desc_df_all %>% 
   filter(phoneme == "o") %>% 
   ggplot(aes(x = choice, y = percentage, 
@@ -114,7 +118,7 @@ desc_df_all %>%
   facet_wrap(~L1) + 
   ylim(0,1) +
   geom_hline(yintercept = 1/7, linetype = "dashed") +
-  ggtitle("Categorizations of schwa") + 
+  ggtitle("Categorizations of wedge") + 
   ggsave(here("data", "plots", "new_sounds", "desc_schwa.png"),
          dpi = 1200)
 
